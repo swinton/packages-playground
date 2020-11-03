@@ -1,0 +1,23 @@
+{
+  "name": "packages-playground",
+  "version": "0.0.1",
+  "description": "",
+  "main": "echo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "echo": "./echo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swinton/packages-playground.git"
+  },
+  "keywords": [],
+  "author": "Steve Winton <stevewinton@gmail.com> (https://github.com/swinton)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swinton/packages-playground/issues"
+  },
+  "homepage": "https://github.com/swinton/packages-playground#readme"
+}
