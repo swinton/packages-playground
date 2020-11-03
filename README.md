@@ -1,10 +1,17 @@
 # packages-playground
 > :wave: :earth_americas: a playground for **Packages** :roller_coaster:
 
+## Build
 ```shell
-docker build -t swinton/echo .
+docker build -t ghcr.io/swinton/echo:$VERSION .
 ```
 
+## Push
 ```shell
-docker run --rm swinton/echo hello world
+docker push ghcr.io/swinton/echo:$VERSION
+```
+
+## Run
+```shell
+docker run --rm ghcr.io/swinton/echo:$VERSION hello world
 ```
